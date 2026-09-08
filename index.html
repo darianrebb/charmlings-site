@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Charmlings</title>
+  <meta name="description" content="Support and privacy information for the Charmlings iOS game." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Charmlings</a>
+    <nav>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow">iOS game</p>
+    <h1>Charmlings</h1>
+    <p class="lede">
+      Defend the lanes with your elemental Charmlings. This site hosts App Store
+      support and privacy information for the game.
+    </p>
+    <div class="actions">
+      <a class="button primary" href="support.html">Get support</a>
+      <a class="button" href="privacy.html">Privacy Policy</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Charmlings. All rights reserved.</p>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
