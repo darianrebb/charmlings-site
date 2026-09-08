@@ -2,23 +2,20 @@
 
 Public GitHub Pages site for Apple App Store **Support URL** and **Privacy Policy URL**.
 
-## Live URLs (after Pages is enabled)
-
-Replace `YOUR_GITHUB_USER` with your GitHub username:
+## Live URLs
 
 | App Store Connect field | URL |
 | --- | --- |
-| Support URL | `https://YOUR_GITHUB_USER.github.io/charmlings-site/support.html` |
-| Privacy Policy URL | `https://YOUR_GITHUB_USER.github.io/charmlings-site/privacy.html` |
+| Support URL | `https://darianrebb.github.io/charmlings-site/support.html` |
+| Privacy Policy URL | `https://darianrebb.github.io/charmlings-site/privacy.html` |
 
-Optional Marketing URL: `https://YOUR_GITHUB_USER.github.io/charmlings-site/`
+Optional Marketing URL: `https://darianrebb.github.io/charmlings-site/`
 
-## Before you publish
+## Publish checklist
 
-1. Replace every `SUPPORT_EMAIL_PLACEHOLDER` in `support.html` and `privacy.html` with a real inbox you monitor.
-2. Create a **public** GitHub repository named `charmlings-site` (or update the URLs above to match).
-3. Push `main`, then enable **Settings → Pages → Deploy from a branch → `main` / root**.
-4. Confirm both pages load over HTTPS on a phone (no login wall).
+1. Confirm support email (`support@charmlings.app`) is an inbox you monitor.
+2. Keep the repo **public**, with Pages set to **Deploy from a branch → `main` / root**.
+3. Confirm both pages load over HTTPS on a phone (no login wall).
 
 ## Local preview
 
