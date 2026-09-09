@@ -2,5 +2,5 @@
 
 Public support and privacy pages for the Charmlings iOS app.
 
-- [Support](https://darianrebb.github.io/charmlings-site/support.html)
-- [Privacy Policy](https://darianrebb.github.io/charmlings-site/privacy.html)
+- [Support](https://charmlings.app/support.html)
+- [Privacy Policy](https://charmlings.app/privacy.html)
