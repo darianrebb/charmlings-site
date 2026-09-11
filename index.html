@@ -4,33 +4,420 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Charmlings</title>
-  <meta name="description" content="Support and privacy information for the Charmlings iOS game." />
+  <meta name="description" content="Charmlings is an iOS strategy RPG. Rally your Charmlings and join the fight to restore the balance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="home">
   <header class="site-header">
     <a class="brand" href="index.html">Charmlings</a>
     <nav>
+      <a href="#story">Story</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
     </nav>
   </header>
 
-  <main class="hero">
-    <p class="eyebrow">iOS game</p>
-    <h1>Charmlings</h1>
-    <p class="lede">
-      Defend the lanes with your elemental Charmlings. This site hosts App Store
-      support and privacy information for the game.
-    </p>
-    <div class="actions">
-      <a class="button primary" href="support.html">Get support</a>
-      <a class="button" href="privacy.html">Privacy Policy</a>
+  <section class="hero-shell" aria-label="Charmlings product introduction">
+    <div class="hero-atmosphere" aria-hidden="true">
+      <span class="wilds-mote"></span>
+      <span class="wilds-mote"></span>
+      <span class="wilds-mote"></span>
+      <span class="wilds-mote"></span>
+      <span class="wilds-mote"></span>
+      <img
+        class="hero-bg-figure"
+        src="assets/veya.png"
+        width="512"
+        height="512"
+        alt=""
+      />
     </div>
-  </main>
+    <div class="hero-content">
+      <img
+        class="hero-brand"
+        src="assets/charmlings-title-font.png"
+        width="1307"
+        height="374"
+        alt="Charmlings"
+      />
+       <p class="hero-eyebrow">An iOS strategy RPG</p>
+      <h1 class="headline">Join the fight to restore the balance</h1>
+      <p class="lede">
+        The Wilds have been unleashed upon the Cosmos like a plague, driven by an insatiable 
+        hunger for power. Rally your Charmlings to defend your home against waves of attackers. 
+        Channel your Charmlings’ elemental abilities to disperse the Wilds before their appetite 
+        unravels the very balance of the Cosmos.
+      </p>
+      <div class="actions">
+        <a class="button primary" href="#gameplay">How to play</a>
+        <a class="button" href="#story">Discover the origin</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="gameplay" id="gameplay" aria-labelledby="gameplay-heading">
+    <div class="peek-stage">
+      <div class="peek-wilds" aria-hidden="true">
+        <img
+          class="peek-wild peek-wild--fire"
+          src="assets/wilds/wild_fire.png"
+          width="332"
+          height="332"
+          alt=""
+        />
+        <img
+          class="peek-wild peek-wild--ice"
+          src="assets/wilds/wild_ice.png"
+          width="332"
+          height="332"
+          alt=""
+        />
+      </div>
+      <div class="gameplay-inner">
+        <p class="section-label">Gameplay</p>
+        <h2 id="gameplay-heading">Command the elements. Restore balance.</h2>
+        <p class="gameplay-lede">
+          Charmlings is a real-time lane-defense game. Wilds march down the lanes 
+          toward you—tap an enemy to lock on, and your Charmling’s beam will fire 
+          automatically. You begin with four Charmlings, each possessing unique elemental 
+          powers. You’ll need quick thinking to choose the Charmlings best suited to counter 
+          your enemies and determine how best to use their powerful battlefield effects.
+        </p>
+        <ul class="gameplay-points">
+          <li>
+            <strong>Tutorial</strong>
+            The game starts you off with a quick tutorial that gently guides you through its 
+            basic mechanics. The idea is simple: enemies advance toward you in three lanes. 
+            You must deplete their health points (HP) before they get too close—or they’ll deplete yours.
+            <img
+              class="gameplay-shot"
+              src="assets/screen-example1.jpg"
+              width="714"
+              height="767"
+              alt="Charmlings tutorial screenshot showing three lanes of Wilds approaching while a Charmling fires its beam."
+              loading="lazy"
+              decoding="async"
+            />
+          </li>
+          <li>
+            <strong>Casual Gameplay</strong>
+            Combat is designed for casual gamers and optimized for small mobile screens. Simply tap an 
+            enemy to start depleting its HP. The game fires automatically, so there’s no need to spam button presses.
+            <p>Changing targets is as easy as tapping another enemy.</p>
+            <p>The game also doesn’t punish you for being curious. Long-pressing an enemy to learn more about its strengths 
+            and weaknesses pauses gameplay, so you can take a breather when you need it.</p>
+            <p>Overrun by Wilds during a wave? No problem. You can restart the wave without penalty, with any unconscious 
+            Charmlings restored to full health. That means you can freely experiment with different strategies.</p>
+            <img
+              class="gameplay-shot"
+              src="assets/screen-example2.jpg"
+              width="714"
+              height="767"
+              alt="Charmlings gameplay screenshots showing a Charmling firing its beam and a information panel showing enemy details."
+              loading="lazy"
+              decoding="async"
+            />
+          </li>
+          <li>
+            <strong>Powerful Battlefield Effects</strong>
+            Each Charmling has a powerful battlefield attack that triggers when it defeats an enemy. Whether scorching an 
+            entire lane of Wilds to ash or freezing movement across the board, strategically timing and chaining your 
+            battlefield attacks can sometimes make short work of a challenging wave.
+            <img
+              class="gameplay-shot"
+              src="assets/screen-example3.jpg"
+              width="714"
+              height="767"
+              alt="Charmlings gameplay screenshots showing fire and ice battlefield effects."
+              loading="lazy"
+              decoding="async"
+            />
+          </li>
+          <li>
+            <strong>Wallet-Friendly</strong>
+            Nothing in the game is locked behind a paywall, which means you can play for
+            as long as you like without ever spending money. There’s an optional Tip Jar
+            menu for players who would like to support the game’s development.
+            <img
+              class="gameplay-shot"
+              src="assets/screen-example4.jpg"
+              width="714"
+              height="767"
+              alt="Charmlings screenshot showing option Tip Jar donation page."
+              loading="lazy"
+              decoding="async"
+            />            
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="lore" id="story" aria-labelledby="story-heading">
+    <div class="wilds-atmosphere" aria-hidden="true">
+      <span class="wilds-haze wilds-haze--left"></span>
+      <span class="wilds-haze wilds-haze--right"></span>
+      <img
+        class="sigil sigil--fire"
+        src="assets/glyphs/fire.png"
+        width="320"
+        height="320"
+        alt=""
+      />
+      <img
+        class="sigil sigil--ice"
+        src="assets/glyphs/ice.png"
+        width="320"
+        height="320"
+        alt=""
+      />
+      <img
+        class="sigil sigil--earth"
+        src="assets/glyphs/earth.png"
+        width="320"
+        height="320"
+        alt=""
+      />
+      <img
+        class="sigil sigil--wind"
+        src="assets/glyphs/wind.png"
+        width="320"
+        height="320"
+        alt=""
+      />
+      <img
+        class="story-bg-figure"
+        src="assets/durnan-action.png"
+        width="921"
+        height="593"
+        alt=""
+      />
+    </div>
+    <div class="section-divider" aria-hidden="true">
+      <span class="section-divider-line"></span>
+      <span class="section-divider-mark">❧</span>
+      <span class="section-divider-line"></span>
+    </div>
+    <header class="story-header">
+      <p class="section-label">Story</p>
+      <h2 id="story-heading">The Hunger of the Wilds</h2>
+      <p class="story-chapter">Chapter 1</p>
+      <p class="lore-intro">
+        Who created the Wilds, and what do they want? Read the legend of the Charmlings 
+        to uncover the story of their rise as protectors against the forces threatening the Cosmos.
+      </p>
+    </header>
+    <div class="lore-inner">
+      <div class="comic-reader" data-comic-reader>
+        <div
+          class="comic-viewport"
+          tabindex="0"
+          role="group"
+          aria-roledescription="comic reader"
+          aria-label="Chapter 1 comic pages"
+          data-comic-viewport
+        >
+          <div class="comic-pages">
+            <figure class="comic-page is-active" data-comic-page>
+              <img
+                src="assets/page0.jpg"
+                width="1024"
+                height="1536"
+                alt="Comic page: cosmic energies fall out of balance; title card for Chapter 1, The Hunger of the Wilds, by Darian Rebb."
+                decoding="async"
+              />
+            </figure>
+            <figure class="comic-page" data-comic-page>
+              <img
+                src="assets/page1.jpg"
+                width="768"
+                height="1376"
+                alt="Comic page: The Aether creates the Wilds to consume excess; Charmlings hunger grows and imbalance worsens."
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="comic-page" data-comic-page>
+              <img
+                src="assets/page2.jpg"
+                width="768"
+                height="1376"
+                alt="Comic page: Sparks escape the Wilds and become Charmlings born with hearts, not hunger."
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+            <figure class="comic-page" data-comic-page>
+              <img
+                src="assets/page3.jpg"
+                width="768"
+                height="1376"
+                alt="Comic page: The Aether stands above ice and fire Charmling companions."
+                loading="lazy"
+                decoding="async"
+              />
+            </figure>
+          </div>
+        </div>
+
+        <div class="comic-toolbar">
+          <button type="button" class="comic-nav" data-comic-prev aria-label="Previous page">
+            ‹ Prev
+          </button>
+          <p class="comic-status" aria-live="polite">
+            Page <span data-comic-current>1</span> of <span data-comic-total>4</span>
+          </p>
+          <button type="button" class="comic-nav" data-comic-next aria-label="Next page">
+            Next ›
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="site-footer">
+    <p><a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a></p>
     <p>© 2026 Darian Rebb</p>
   </footer>
+
+  <script>
+    (() => {
+      const reader = document.querySelector("[data-comic-reader]");
+      if (!reader) return;
+
+      const pages = Array.from(reader.querySelectorAll("[data-comic-page]"));
+      const prevBtn = reader.querySelector("[data-comic-prev]");
+      const nextBtn = reader.querySelector("[data-comic-next]");
+      const currentEl = reader.querySelector("[data-comic-current]");
+      const totalEl = reader.querySelector("[data-comic-total]");
+      const viewport = reader.querySelector("[data-comic-viewport]");
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      let index = 0;
+      let animating = false;
+      let touchX = null;
+
+      if (totalEl) totalEl.textContent = String(pages.length);
+
+      function updateChrome() {
+        if (currentEl) currentEl.textContent = String(index + 1);
+        if (prevBtn) prevBtn.disabled = index === 0 || animating;
+        if (nextBtn) nextBtn.disabled = index === pages.length - 1 || animating;
+      }
+
+      function clearExitClasses() {
+        pages.forEach((page) => {
+          page.classList.remove("is-exit-left", "is-exit-right");
+        });
+      }
+
+      function showPage(nextIndex, direction) {
+        if (nextIndex === index || nextIndex < 0 || nextIndex >= pages.length || animating) {
+          return;
+        }
+
+        const current = pages[index];
+        const next = pages[nextIndex];
+        const goingForward = direction === "next" || nextIndex > index;
+
+        if (reduceMotion) {
+          current.classList.remove("is-active");
+          next.classList.add("is-active");
+          index = nextIndex;
+          updateChrome();
+          return;
+        }
+
+        animating = true;
+        updateChrome();
+        clearExitClasses();
+        current.classList.remove("is-active");
+        current.classList.add(goingForward ? "is-exit-left" : "is-exit-right");
+        next.classList.add("is-active");
+
+        window.setTimeout(() => {
+          current.classList.remove("is-exit-left", "is-exit-right");
+          index = nextIndex;
+          animating = false;
+          updateChrome();
+        }, 450);
+      }
+
+      prevBtn?.addEventListener("click", () => showPage(index - 1, "prev"));
+      nextBtn?.addEventListener("click", () => showPage(index + 1, "next"));
+
+      viewport?.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          showPage(index - 1, "prev");
+        }
+        if (event.key === "ArrowRight") {
+          event.preventDefault();
+          showPage(index + 1, "next");
+        }
+      });
+
+      viewport?.addEventListener(
+        "touchstart",
+        (event) => {
+          touchX = event.changedTouches[0]?.clientX ?? null;
+        },
+        { passive: true }
+      );
+
+      viewport?.addEventListener(
+        "touchend",
+        (event) => {
+          if (touchX == null) return;
+          const endX = event.changedTouches[0]?.clientX ?? touchX;
+          const delta = endX - touchX;
+          touchX = null;
+          if (Math.abs(delta) < 48) return;
+          if (delta < 0) showPage(index + 1, "next");
+          else showPage(index - 1, "prev");
+        },
+        { passive: true }
+      );
+
+      updateChrome();
+    })();
+
+    (() => {
+      const wilds = Array.from(document.querySelectorAll(".peek-wild"));
+      if (!wilds.length) return;
+
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (reduceMotion) {
+        wilds.forEach((wild) => wild.classList.add("is-peeking"));
+        return;
+      }
+
+      const reveal = (wild) => wild.classList.add("is-peeking");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            reveal(entry.target);
+            observer.unobserve(entry.target);
+          });
+        },
+        // Trigger when each Wild itself approaches the viewport (ice sits lower).
+        { threshold: 0, rootMargin: "0px 0px -20% 0px" }
+      );
+
+      wilds.forEach((wild) => {
+        const rect = wild.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.8 && rect.bottom > 0) {
+          reveal(wild);
+          return;
+        }
+        observer.observe(wild);
+      });
+    })();
+  </script>
 </body>
 </html>
