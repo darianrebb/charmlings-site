@@ -516,6 +516,24 @@ li + li {
   font-size: 0.95rem;
 }
 
+.store-cta {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1.25rem 2.75rem;
+}
+
+.app-store-badge {
+  display: inline-block;
+  line-height: 0;
+}
+
+.app-store-badge img {
+  width: 246px;
+  height: 82px;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
 .lore {
   position: relative;
   isolation: isolate;
